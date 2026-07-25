@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cstring>
 #include<utility>
-#include<cstddef>
+
 
 using namespace std;
 //三法则（Rule of Three）的经典示例
@@ -14,6 +14,9 @@ public:
             cstring = new char[strlen(s)+1];
             strcpy(cstring,s);
         }
+    }
+    rule_of_three(const rule_of_three& other):cstring(other.cstring ? new char[strlen(other.cstring)+1] : nullptr){
+        if(cstring) strcpy(cstring,other.cstring);
     }
 
     ~rule_of_three(){
@@ -44,6 +47,13 @@ public:
 };
 
 int main(){
-    String a("hello");
-    String b=a;
+    //String a("hello");
+    //String b=a;浅拷贝，会造成两次delete同一块区域
+    rule_of_three o1{"abc"};
+    cout<<o1.c_str()<<' ';
+    auto o2{o1};
+    cout<<o2.c_str()<<' ';
+    rule_of_three o3("def");
+    cout<<o3.c_str()<<'\n';
+
 }
