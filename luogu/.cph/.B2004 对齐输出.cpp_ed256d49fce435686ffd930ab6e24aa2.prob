@@ -1,0 +1,1 @@
+{"name":"Local: B2004 对齐输出","url":"e:\\cpp_roadmap\\luogu\\B2004 对齐输出.cpp","tests":[{"id":1785727905015,"input":"123456789 0 -1\n","output":"123456789        0       -1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cpp_roadmap\\luogu\\B2004 对齐输出.cpp","group":"local","local":true}
