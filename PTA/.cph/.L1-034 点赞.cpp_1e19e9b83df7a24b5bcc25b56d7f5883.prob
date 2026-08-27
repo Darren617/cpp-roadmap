@@ -1,0 +1,1 @@
+{"name":"Local: L1-034 点赞","url":"e:\\cpp_roadmap\\PTA\\L1-034 点赞.cpp","tests":[{"id":1787818153847,"input":"4\n3 889 233 2\n5 100 3 233 2 73\n4 3 73 889 2\n2 233 123","output":"233 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\cpp_roadmap\\PTA\\L1-034 点赞.cpp","group":"local","local":true}
