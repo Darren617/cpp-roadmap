@@ -1,0 +1,1 @@
+{"name":"Local: 找出素数再排序","url":"/Users/mac/Desktop/CS/cpp-roadmap/major_switch/找出素数再排序.cpp","tests":[{"id":1788057878393,"input":"12\n3 8 7 5 10 58 41 67 42 17 18 61","output":"3\n5\n7\n17\n41\n61\n67"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mac/Desktop/CS/cpp-roadmap/major_switch/找出素数再排序.cpp","group":"local","local":true}

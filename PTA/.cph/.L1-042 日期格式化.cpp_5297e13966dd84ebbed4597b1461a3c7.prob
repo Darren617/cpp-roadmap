@@ -1,0 +1,1 @@
+{"name":"Local: L1-042 日期格式化","url":"/Users/mac/Desktop/CS/cpp-roadmap/PTA/L1-042 日期格式化.cpp","tests":[{"id":1787904837452,"input":"03-15-2017","output":"2017-03-15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mac/Desktop/CS/cpp-roadmap/PTA/L1-042 日期格式化.cpp","group":"local","local":true}

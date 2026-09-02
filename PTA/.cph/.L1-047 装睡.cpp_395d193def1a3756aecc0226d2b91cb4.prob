@@ -1,0 +1,1 @@
+{"name":"Local: L1-047 装睡","url":"/Users/mac/Desktop/CS/cpp-roadmap/PTA/L1-047 装睡.cpp","tests":[{"id":1787967846866,"input":"4\nAmy 15 70\nTom 14 60\nJoe 18 50\nZoe 21 71","output":"Tom\nZoe"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mac/Desktop/CS/cpp-roadmap/PTA/L1-047 装睡.cpp","group":"local","local":true}
