@@ -1,0 +1,1 @@
+{"name":"Local: L1-056 猜数字","url":"/Users/mac/Desktop/CS/cpp-roadmap/PTA/L1-056 猜数字.cpp","tests":[{"id":1788508811543,"input":"7\nBob 35\nAmy 28\nJames 98\nAlice 11\nJack 45\nSmith 33\nChris 62","output":"22 Amy"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mac/Desktop/CS/cpp-roadmap/PTA/L1-056 猜数字.cpp","group":"local","local":true}

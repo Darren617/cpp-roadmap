@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 #include<iostream>
+#include<vector>
 
 struct TreeNode{
     int val;
@@ -9,14 +10,14 @@ struct TreeNode{
     TreeNode(int a):val(a),left(nullptr),right(nullptr){};
 };
 
-void bianli(TreeNode* cur,vector<int> a){
+void bianli(TreeNode* cur,vector<int>& a){
     if(cur==nullptr){
         return;
     }
     a.push_back(cur->val);
     bianli(cur->left,a);
     bianli(cur->right,a);
-   
+    
 }
 
 class Solution{
